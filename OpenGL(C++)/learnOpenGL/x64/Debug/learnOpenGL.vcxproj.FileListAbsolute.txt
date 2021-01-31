@@ -1,0 +1,2 @@
+C:\Users\YANGYI\source\repos\learnOpenGL\x64\Debug\learnOpenGL.exe
+C:\Users\YANGYI\source\repos\learnOpenGL\x64\Debug\learnOpenGL.pdb

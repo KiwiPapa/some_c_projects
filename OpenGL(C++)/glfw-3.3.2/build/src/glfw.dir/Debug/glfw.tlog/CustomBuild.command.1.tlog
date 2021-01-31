@@ -1,0 +1,10 @@
+^C:\USERS\YANGYI\DESKTOP\GLFW-3.3.2\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/YANGYI/Desktop/glfw-3.3.2 -BC:/Users/YANGYI/Desktop/glfw-3.3.2/build --check-stamp-file C:/Users/YANGYI/Desktop/glfw-3.3.2/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
